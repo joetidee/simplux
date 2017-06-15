@@ -1,0 +1,32 @@
+{
+  "name": "simplux",
+  "version": "1.0.0",
+  "description": "A simple state manangmeent library",
+  "main": "./dist/app.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build",
+	"test": "mocha --colors --watch test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joetidee/simplux.git"
+  },
+  "keywords": [
+    "simplux"
+  ],
+  "author": "Joe Privett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joetidee/simplux/issues"
+  },
+  "homepage": "https://github.com/joetidee/simplux#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+	"babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+	"chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
