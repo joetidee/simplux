@@ -1,4 +1,4 @@
-import { createStore } from '../simplux/simplux.js';
+import { createStore } from '../src/app.js';
 import initialState from './initialState.js';
 import reducer from './reducer.js';
 
