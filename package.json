@@ -4,7 +4,8 @@
   "description": "A simple state manangment library",
   "main": "./dist/app.js",
   "scripts": {
-    "build": "babel src --out-dir dist",
+    "build-watch": "babel src --out-dir dist --watch",
+	"build": "babel src --out-dir dist",
     "prepublish": "npm run build",
     "test": "mocha --colors --watch --compilers js:babel-core/register test/test.js"
   },
