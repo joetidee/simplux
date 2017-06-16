@@ -1,6 +1,6 @@
 {
   "name": "tidee-simplux",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple state manangment library",
   "main": "./dist/app.js",
   "scripts": {
