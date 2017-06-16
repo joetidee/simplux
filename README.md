@@ -1,3 +1,3 @@
 # simplux
 
-A simple state manangement library.
+A simple state management library.
